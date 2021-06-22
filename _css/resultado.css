@@ -1,7 +1,38 @@
+*{
+    font-family: 'Fira Sans';
+}
+
 body {
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(210, 234, 255);
+}
+.agroup{
+    margin: 2% auto;
+    max-width: 1260px;
+    width: 98%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+.agroup-title{
+    padding: 5px;
+    border-top-left-radius: 6.5px;
+    border-top-right-radius: 6.5px;
+    background-color: #f4aa24;
+    color: white;
+    width: 100%;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    min-height: 430px;
+    padding: 20px;
 }
 table.table {
+    padding-top: 20px;
     width: 70%;
     margin: 0 auto;
+}
+.table td, .table th{
+    text-align: center;
 }
